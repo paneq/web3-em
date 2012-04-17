@@ -1,0 +1,43 @@
+PATH
+  remote: vendor/gems/goliath-cceca868c719
+  specs:
+    goliath (0.9.1)
+      async-rack
+      em-synchrony (>= 0.3.0.beta.1)
+      eventmachine (>= 1.0.0.beta.3)
+      http_parser.rb
+      log4r
+      multi_json
+      rack (>= 1.2.2)
+      rack-contrib
+      rack-respond_to
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.7)
+    async-rack (0.5.1)
+      rack (~> 1.1)
+    em-synchrony (1.0.0)
+      eventmachine (>= 1.0.0.beta.1)
+    em-websocket (0.3.6)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    eventmachine (1.0.0.beta.4)
+    http_parser.rb (0.5.2)
+    log4r (1.1.9)
+    multi_json (1.0.3)
+    rack (1.4.1)
+    rack-accept-media-types (0.9)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-respond_to (0.9.8)
+      rack-accept-media-types (>= 0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-websocket
+  eventmachine (= 1.0.0.beta.4)
+  goliath!
