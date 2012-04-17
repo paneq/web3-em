@@ -1,3 +1,3 @@
-file:///home/rupert/develop/fun/web3/em-websocket/examples/test.html
-http://localhost:9000/notify?target=Uzytkownik1&message=wiadomosc2
- ~/develop/fun/web3  > bundle exec ruby em-websocket-example.rb
+Browser: em-websocket/examples/test.html
+Send message to websocket in browser: http://localhost:9000/notify?target=Uzytkownik1&message=wiadomosc2
+Run server: bundle exec ruby em-websocket-example.rb
